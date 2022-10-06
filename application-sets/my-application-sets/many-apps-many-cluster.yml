@@ -23,4 +23,5 @@ spec:
         targetRevision: HEAD
         path: '{{path}}'
       destination:
+        server: '{{server}}'
         namespace: '{{path.basename}}'
